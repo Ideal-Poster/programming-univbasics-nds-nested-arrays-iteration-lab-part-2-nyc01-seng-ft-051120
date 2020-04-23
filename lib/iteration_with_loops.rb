@@ -4,7 +4,7 @@ def find_min_in_nested_arrays(src)
   return_array = []
   count = 0 
   
-  while src[outerCount]
+  while src[count]
     return_array << src[count].sort.first
     count += 1
   end
