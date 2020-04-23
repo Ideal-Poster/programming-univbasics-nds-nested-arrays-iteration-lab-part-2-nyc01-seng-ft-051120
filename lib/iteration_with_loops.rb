@@ -6,13 +6,7 @@ def find_min_in_nested_arrays(src)
   outerCount, innerCount = 0 
   
   while src[outerCount]
-    innerCount = 0
-    while src[outerCount][innerCount]
-      sorted_array[outerCount].sort
-      return_array << src[outerCount][innerCount]
-      innerCount += 1
-    end
-    outerCount += 1
+  
   end
   return_array
 
